@@ -21,6 +21,9 @@ description: >- # this means to ignore newlines until "baseurl:"
   The number (5) has no real significance that I recall other than achieving uniqueness.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+username: Matt Borja
+user_title: Web Application Developer
 github_username: rdev5
 
 # Build settings
@@ -40,5 +43,3 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-
-theme: jekyll-theme-cayman
