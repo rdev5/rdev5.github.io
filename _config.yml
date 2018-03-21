@@ -13,24 +13,27 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: rdev5
-email: matt (dot) borja (at) gmail (dot) com
-description: >- # this means to ignore newlines until "baseurl:"
-  The name rdev5 originated from my earlier days learning Ruby on Rails and is
-  short for "Ruby Developer" though my tooling has expanded significantly since.
-  The number (5) has no real significance that I recall other than achieving uniqueness.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
-username: Matt Borja
-user_title: Web Application Developer
+author: Matt Borja
+title: rdev5.github.io
 github_username: rdev5
+email: matt.borja+rdev5@gmail.com
+description: Web Application Developer
+
+paginate:          5
+paginate_path:     "/posts/page:num/"
+
+google-analytics:
+  id: "UA-116136116-1"
 
 # Build settings
 markdown: kramdown
-remote_theme: rdev5/particle
+theme: jekyll-theme-clean-blog
 plugins:
   - jekyll-feed
+  - jekyll-paginate
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
