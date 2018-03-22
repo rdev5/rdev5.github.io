@@ -30,7 +30,7 @@ google-analytics:
 
 # Build settings
 markdown: kramdown
-remote_theme: jekyll-theme-clean-blog
+theme: jekyll-theme-clean-blog
 plugins:
   - jekyll-feed
   - jekyll-paginate
