@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Posts
-permalink: /posts/
+title: Blog
+permalink: /blog/
 background: /assets/img/idea-board-1280.jpg
 ---
 
