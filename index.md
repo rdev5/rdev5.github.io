@@ -16,6 +16,7 @@ trades:
     - Clustering (Persistence, Distributed Caching)
     - Single Sign-On (CAS, Shibboleth, ADFS, SAML2, OAuth)
     - Configuration Management
+    - Documentation
 
 - name: DevOps
   skills:
