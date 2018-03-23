@@ -57,17 +57,3 @@ Configuration files and additional information for this project can be found [h
 #### Applications
 
 1.  Configure additional firewall settings (i.e. port forwarding)
-
-Advertisements
-
-Occasionally, some of your visitors may see an advertisement here  
-You can hide these ads completely by upgrading to one of our paid plans.
-
-[Upgrade now](https://wordpress.com/plans/117869893/?feature=no-adverts&utm_campaign=removeadsnotive) [Dismiss message](#)
-
-### Share this:
-
-*   [Press This](https://mattsec.wordpress.com/2016/10/16/my-raspberry-pi-notes/?share=press-this&nb=1 "Click to Press This!")
-*   [Twitter](https://mattsec.wordpress.com/2016/10/16/my-raspberry-pi-notes/?share=twitter&nb=1 "Click to share on Twitter")
-*   [Facebook](https://mattsec.wordpress.com/2016/10/16/my-raspberry-pi-notes/?share=facebook&nb=1 "Share on Facebook")
-*   [Google](https://mattsec.wordpress.com/2016/10/16/my-raspberry-pi-notes/?share=google-plus-1&nb=1 "Click to share on Google+")
