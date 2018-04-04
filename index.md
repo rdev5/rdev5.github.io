@@ -12,18 +12,22 @@ trades:
   skills:
     - ASP.NET MVC (C#)
     - Securing Web Application Technologies
-    - Third-Party Integration (REST API)
-    - Clustering (Persistence, Distributed Caching)
-    - Single Sign-On (CAS, Shibboleth, ADFS, SAML2, OAuth)
-    - Configuration Management
     - Documentation
+    - Configuration Management
+    - Continuous Integration &amp; Delivery &mdash; GitHub, Team Services, TeamCity
+
+- name: Infrastructure
+  skills:
+    - High Availability &mdash; HAProxy, Barracuda
+    - Clustering &mdash; Persistence, Distributed Caching (Couchbase)
+    - Cloud &mdash; Rackspace, Digital Ocean
+    - Single Sign-On &mdash; CAS, Shibboleth, ADFS, SAML2, OAuth
 
 - name: DevOps
   skills:
-    - Continuous Integration &amp; Delivery
-    - Puppet Enterprise (Windows Server 2016, CentOS 7.x)
-    - Core Infrastructure
-    - Application Infrastructure &amp; Orchestration
+    - Puppet Enterprise &mdash; Code Manager, RBAC
+    - Core Infrastructure &mdash; Windows Server 2016, CentOS 7.x
+    - Application Infrastructure &amp; Orchestration &mdash; IIS, Tomcat
 
 ---
 

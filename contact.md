@@ -4,7 +4,19 @@ title: Contact
 permalink: /contact/
 background: /assets/img/contact-1280.jpg
 ---
-<p>To contact me, send an email to <a href="mailto:{{ site.email | escape }}">{{ site.email | escape }}</a>.</p>
+<h2>Contact</h2>
+<p>
+  Email:<br />
+  {{ site.email | escape }}
+</p>
+<p>
+  LinkedIn:<br />
+  https://www.linkedin.com/in/mattborja
+</p>
+<p>
+  GitHub:<br />
+  https://github.com/rdev5
+</p>
 
 {% comment %}
 <form name="sentMessage" id="contactForm" novalidate>
