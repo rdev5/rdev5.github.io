@@ -5,13 +5,14 @@ date:   2018-03-23
 categories: blog
 background: /assets/img/raspberry-pi-1280.jpg
 ---
-I don't really have any projects relying on the hardware of a Raspberry Pi, but I do like setting things up. For this round, however, I may be interested in:
+I find the hardware of a Raspberry Pi somewhat unstable. Nevertheless, it serves as a good learning platform.
 
-*   building my own [Tiny Hardware Firewall](http://www.tinyhardwarefirewall.com/) / VPN client;
-*   simulating network environments for CCENT/CCNA ICND1-2;
-*   building some pentesting practice targets;
-*   building an isolated true random number collector;
-*   building a hardware security module.
+Examples:
+*   [Tiny Hardware Firewall](http://www.tinyhardwarefirewall.com/) / VPN client;
+*   Simulating network environments for CCENT/CCNA ICND1-2;
+*   Pentesting practice targets;
+*   Isolated true random number collector;
+*   Hardware security module.
 
 ### Hardware
 
