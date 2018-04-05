@@ -3,6 +3,7 @@ layout: post
 title:  "Crypto Challenge 003"
 date:   2018-03-22
 categories: blog
+background: /assets/img/raspberry-pi-1280.jpg
 ---
 Ciphers have been around for a very long time like this widely known technique.
 

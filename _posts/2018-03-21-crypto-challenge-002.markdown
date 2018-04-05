@@ -3,6 +3,7 @@ layout: post
 title:  "Crypto Challenge 002"
 date:   2018-03-21
 categories: blog
+background: /assets/img/raspberry-pi-1280.jpg
 ---
 Some cipher modes may hold useful properties (i.e. *self-inverting*).
 
