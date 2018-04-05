@@ -21,7 +21,7 @@ trades:
     - High Availability &mdash; HAProxy, Barracuda
     - Clustering &mdash; Persistence, Distributed Caching (Couchbase)
     - Cloud &mdash; Rackspace, Digital Ocean
-    - Single Sign-On &mdash; CAS, Shibboleth, ADFS, SAML2, OAuth
+    - Single Sign-On &mdash; CAS, Shibboleth, ADFS, SAML2, OAuth, MFA
 
 - name: DevOps
   skills:
