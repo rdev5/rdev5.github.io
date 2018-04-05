@@ -3,7 +3,7 @@ layout: post
 title:  "Crypto Challenge 001"
 date:   2018-03-19
 categories: blog
-background: /assets/img/raspberry-pi-1280.jpg
+background: /assets/img/keys-1280.jpg
 ---
 This one is pretty easy to recognize.
 
