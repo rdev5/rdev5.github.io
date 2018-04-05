@@ -18,6 +18,7 @@ hobbies:
   - Electrical Engineering
   - Home Improvement
 ---
+<p style="text-align: center;">&mdash; This page is under construction &mdash;</p>
 <h3>The history behind <ins>{{ site.github_username }}</ins><small class="text-muted">.github.io</small></h3>
 
 {% for line in page.github_background %}
