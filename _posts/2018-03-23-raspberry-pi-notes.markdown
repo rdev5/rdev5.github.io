@@ -3,8 +3,9 @@ layout: post
 title:  "Raspberry Pi Notes"
 date:   2018-03-23
 categories: blog
+background: /assets/img/raspberry-pi-1280.jpg
 ---
-I don’t really have any projects relying on the hardware of a Raspberry Pi, but I do like setting things up. For this round, however, I may be interested in:
+I don't really have any projects relying on the hardware of a Raspberry Pi, but I do like setting things up. For this round, however, I may be interested in:
 
 *   building my own [Tiny Hardware Firewall](http://www.tinyhardwarefirewall.com/) / VPN client;
 *   simulating network environments for CCENT/CCNA ICND1-2;
