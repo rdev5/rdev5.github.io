@@ -12,8 +12,8 @@ trades:
   skills:
     - ASP.NET MVC (C#)
     - Securing Web Application Technologies
-    - Documentation
-    - Configuration Management
+    - Documentation &mdash; Markdown
+    - Configuration Management &mdash; Private NuGet packages
     - Continuous Integration &amp; Delivery &mdash; GitHub, Team Services, TeamCity
 
 - name: Infrastructure
@@ -26,9 +26,10 @@ trades:
 - name: DevOps
   skills:
     - Puppet Enterprise &mdash; Code Manager, RBAC
-    - Core Infrastructure &mdash; Windows Server 2016, CentOS 7.x
-    - Application Infrastructure &amp; Orchestration &mdash; IIS, Tomcat
-
+    - Application Orchestration &mdash; SSL, RSA, Isolation, Virtual Hosts, Shares
+    - Application Infrastructure &mdash; Windows Server (IIS), CentOS (Tomcat)
+    - Core Infrastructure &mdash; DNS, Firewall, SSH, Users, Groups
+    
 ---
 
 {% for t in page.trades %}
