@@ -15,6 +15,7 @@ trades:
     - Documentation &mdash; Markdown
     - Configuration Management &mdash; Private NuGet packages
     - Continuous Integration &amp; Delivery &mdash; GitHub, Team Services, TeamCity
+    - Compliance - Access Management, Application Lifecycle Management
 
 - name: Infrastructure
   skills:
