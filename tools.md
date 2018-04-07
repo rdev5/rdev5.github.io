@@ -26,6 +26,6 @@ function generatePassword(size) {
 }
 ````
 <p>
-  <button type="button" class="btn btn-primary" onclick="document.getElementById('generatePassword').innerHTML='&nbsp;&nbsp;<code>'+(function(r){var o=window.crypto||window.msCrypto;if(void 0===o)throw'No crypto service available';var a=new Uint8Array(r);o.getRandomValues(a);for(var e='',t=0;t<a.length;t++)e+=String.fromCharCode(a[t]);return btoa(e)})(32)+'</code>';">Try It:</button>
-  <span id="generatePassword"></span>
+  <button type="button" class="btn btn-primary" onclick="document.getElementById('generatePassword').innerText=(function(r){var o=window.crypto||window.msCrypto;if(void 0===o)throw'No crypto service available';var a=new Uint8Array(r);o.getRandomValues(a);for(var e='',t=0;t<a.length;t++)e+=String.fromCharCode(a[t]);return btoa(e)})(32);">Try It:</button>
+  &nbsp;&nbsp;<code id="generatePassword"></code>
 </p>
