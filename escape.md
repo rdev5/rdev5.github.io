@@ -21,13 +21,13 @@ Because that, when they knew God, they glorified [him] not as God, neither were 
   <li>John 14:5-6 - Thomas saith unto him, Lord, we know not whither thou goest; and how can we know the way? Jesus saith unto him, I am the way, the truth, and the life: no man cometh unto the Father, but by me.</li>
   <li>Acts 4:12 - Neither is there salvation in any other: for there is none other name under heaven given among men, whereby we must be saved.</li>
   <li>1 John 5:11-12 - And this is the record, that God hath given to us eternal life, and this life is in his Son. He that hath the Son hath life; [and] he that hath not the Son of God hath not life.</li>
-  <li>John 3:16-18 - For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life. For God sent not his Son into the world to condemn the world; but that the world through him might be saved. He that believeth on him is not condemned: but he that believeth not is condemned already, because he hath not believed in the name of the only begotten Son of God.</li>
 </ul>
 <h3>What do I do?</h3>
 <h4>Repent and believe the gospel!</h4>
 <ul>
   <li>Romans 3:23 - For all have sinned, and come short of the glory of God;</li>
   <li>Romans 6:23 - For the wages of sin [is] death; but the gift of God [is] eternal life through Jesus Christ our Lord.</li>
+  <li>John 3:16-18 - For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life. For God sent not his Son into the world to condemn the world; but that the world through him might be saved. He that believeth on him is not condemned: but he that believeth not is condemned already, because he hath not believed in the name of the only begotten Son of God.</li>
   <li>Luke 5:31-32 - And Jesus answering said unto them, They that are whole need not a physician; but they that are sick. I came not to call the righteous, but sinners to repentance.</li>
   <li>Romans 10:9 - That if thou shalt confess with thy mouth the Lord Jesus, and shalt believe in thine heart that God hath raised him from the dead, thou shalt be saved.</li>
   <li>Romans 10:13 - For whosoever shall call upon the name of the Lord shall be saved.</li>
