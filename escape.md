@@ -32,7 +32,7 @@ Because that, when they knew God, they glorified [him] not as God, neither were 
   <li>Romans 10:9 - That if thou shalt confess with thy mouth the Lord Jesus, and shalt believe in thine heart that God hath raised him from the dead, thou shalt be saved.</li>
   <li>Romans 10:13 - For whosoever shall call upon the name of the Lord shall be saved.</li>
 </ul>
-<p>All it takes for you to know for sure they'll go to Heaven when they die is to believe that Jesus, God's only begotten Son, died upon the cross of Calvary for your sins, was buried, and rose again from the dead; repent of your sins and call upon the Lord Jesus Christ in believing faith, asking him to forgive you of your sins, and to come into your heart and to save your soul.</p>
+<p>All it takes for you to know for sure that you'll go to Heaven when you die is to believe that Jesus Christ, God's only begotten Son, died upon the cross of Calvary for your sins, was buried, and rose again from the dead; repent of your sins and call upon the Lord Jesus Christ in believing faith, asking him to forgive you of your sins, and to come into your heart and to save your soul.</p>
 <blockquote>
 These things have I written unto you that believe on the name of the Son of God; that ye may know that ye have eternal life, and that ye may believe on the name of the Son of God. - 1 John 5:13
 </blockquote>
