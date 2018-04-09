@@ -3,7 +3,7 @@
   $('script.snippet').each(function(a, b, c) {
     var snippet = $(this).html();
 
-    var block = $('<pre />').text(snippet);
+    var block = $('<pre />').text(snippet.trim());
     $(this).before(block);
   });
 
