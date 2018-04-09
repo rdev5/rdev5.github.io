@@ -2,9 +2,9 @@
 layout: page
 title: Contact
 permalink: /contact/
+include_navigation: true
 background: /assets/img/contact-1280.jpg
 ---
-<h2>Contact</h2>
 {% if site.email %}
 <li class="list-inline-item">
   <a href="mailto:{{ site.email }}">

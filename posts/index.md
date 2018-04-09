@@ -2,6 +2,7 @@
 layout: page
 title: Blog
 permalink: /blog/
+include_navigation: true
 background: /assets/img/idea-board-1280.jpg
 ---
 

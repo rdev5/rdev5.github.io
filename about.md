@@ -1,8 +1,9 @@
 ---
 layout: page
-title: Matt Borja
-description: Full Stack Web Application Developer (since 2004)
+title: About
+description: Matt Borja, Full Stack Web Application Developer (since 2004)
 permalink: /about/
+include_navigation: true
 background: /assets/img/palm-trees-1280.jpg
 
 web_application_requirements:

@@ -1,8 +1,9 @@
 ---
 layout: page
-title: Many paths
+title: Escape!
 description: But only one way out...
 permalink: /escape/
+include_navigation: true
 background: /assets/img/storm-1280.jpg
 ---
 <blockquote>
