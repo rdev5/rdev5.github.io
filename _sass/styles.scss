@@ -1,6 +1,10 @@
 // Import Core Clean Blog SCSS
 @import "../assets/vendor/startbootstrap-clean-blog/scss/clean-blog.scss";
 
+a:hover {
+  text-decoration: none;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
 }
