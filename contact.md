@@ -5,18 +5,44 @@ permalink: /contact/
 background: /assets/img/contact-1280.jpg
 ---
 <h2>Contact</h2>
-<p>
-  Email:<br />
-  {{ site.email | escape }}
-</p>
-<p>
-  LinkedIn:<br />
-  https://www.linkedin.com/in/mattborja
-</p>
-<p>
-  GitHub:<br />
-  https://github.com/rdev5
-</p>
+{% if site.email %}
+<li class="list-inline-item">
+  <a href="mailto:{{ site.email }}">
+    <span class="fa-stack fa-lg">
+      <i class="fa fa-circle fa-stack-2x"></i>
+      <i class="fa fa-email fa-stack-1x fa-inverse"></i>
+    </span>
+
+    Email ({{ site.email }})
+  </a>
+</li>
+{% endif %}
+
+{% if site.linkedin_username %}
+<li class="list-inline-item">
+  <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}">
+    <span class="fa-stack fa-lg">
+      <i class="fa fa-circle fa-stack-2x"></i>
+      <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+    </span>
+
+    LinkedIn ({{ site.linkedin_username }})
+  </a>
+</li>
+{% endif %}
+
+{% if site.github_username %}
+<li class="list-inline-item">
+  <a href="https://github.com/{{ site.github_username }}">
+    <span class="fa-stack fa-lg">
+      <i class="fa fa-circle fa-stack-2x"></i>
+      <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+    </span>
+
+    GitHub ({{ site.github_username }})
+  </a>
+</li>
+{% endif %}
 
 {% comment %}
 <form name="sentMessage" id="contactForm" novalidate>
