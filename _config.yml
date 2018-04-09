@@ -31,7 +31,7 @@ google-analytics:
 
 # Build settings
 markdown: kramdown
-remote_theme: rdev5/startbootstrap-clean-blog-jekyll
+theme: minima
 plugins:
   - jekyll-feed
   - jekyll-paginate
