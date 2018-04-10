@@ -10,7 +10,7 @@ background: /assets/img/contact-1280.jpg
   <a href="mailto:{{ site.email }}">
     <span class="fa-stack fa-lg">
       <i class="fa fa-circle fa-stack-2x"></i>
-      <i class="fa fa-email fa-stack-1x fa-inverse"></i>
+      <i class="fa fa-envelop fa-stack-1x fa-inverse"></i>
     </span>
 
     Email ({{ site.email }})
