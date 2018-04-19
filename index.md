@@ -41,5 +41,3 @@ trades:
     {% endfor %}
   </ul>
 {% endfor %}
-
-<p>For inquiries, please use the <a href="{{ "/contact" | relative_url }}">Contact</a> page.</p>
