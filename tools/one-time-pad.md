@@ -5,14 +5,14 @@ description: Custom Tools
 permalink: /tools/one-time-pad
 background: /assets/img/tools-1280.jpg
 ---
-<h3>One-Time Pad</h3>
 <p><strong>Requirements:</strong></p>
 <ul>
   <li>Encryption key must be truly random</li>
   <li>Encryption key must be at least the same length as the plaintext</li>
   <li>Encryption key must never be re-used</li>
 </ul>
-<script id="otp-example" class="snippet">
+
+{% highlight javascript %}
 // Converts string to Uint8Array
 function stringToBytes(s) {
   var bytes = new Uint8Array(s.length);
@@ -66,8 +66,7 @@ function otp(key, plaintext) {
 
   return bytes;
 }
-</script>
-````
+
 // Usage
 var plaintext = 'This is sensitive information';
 var key = secureRandom(plaintext.length);
@@ -79,19 +78,4 @@ console.log('plaintext:', plaintext);
 console.log('key:', btoa(bytesToString(key)));
 console.log('ciphertext:', btoa(bytesToString(ciphertext)));
 console.log('decrypted:', bytesToString(decrypted));
-````
-<h4>Try It!</h4>
-<p>Note: The key is regenerated with every plaintext character you type in order to fulfill the above requirements.</p>
-<form id="otp">
-  <div class="form-group">
-    <input type="text" class="form-control" id="otp-plaintext" placeholder="Enter plaintext..." />
-  </div>
-  <div class="form-group">
-    <label for="otp-key">Key (<span id="otp-key-size">0</span> bytes)</label>
-    <input type="text" class="form-control" id="otp-key" readonly="readonly" />
-  </div>
-  <div class="form-group">
-    <label for="otp-ciphertext">Ciphertext</label>
-    <input type="text" class="form-control" id="otp-ciphertext" readonly="readonly" />
-  </div>
-</form>
+{% endhighlight %}

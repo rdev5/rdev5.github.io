@@ -13,28 +13,32 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
+title: rdev5.github.io
+email: matt.borja+rdev5@gmail.com
+#description: >- # this means to ignore newlines until "baseurl:"
+#  Write an awesome description for your new site here. You can edit this
+#  line in _config.yml. It will appear in your document head meta (for
+#  Google search results) and in your feed.xml site description.
+show_excerpts: true
+
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
-author: Matt Borja
-title: rdev5.github.io
+#twitter_username: jekyllrb
 github_username: rdev5
 linkedin_username: mattborja
-email: matt.borja+rdev5@gmail.com
-description: Web Application Developer
 
-paginate:          5
-paginate_path:     "/posts/page:num/"
-
-google-analytics:
-  id: "UA-116136116-1"
+header_pages:
+  - about.md
+  - posts.md
+  - tools.md
+  - escape.md
 
 # Build settings
 markdown: kramdown
-remote_theme: rdev5/startbootstrap-clean-blog-jekyll
+theme: minima
 plugins:
   - jekyll-feed
-  - jekyll-paginate
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

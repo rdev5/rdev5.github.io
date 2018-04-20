@@ -4,7 +4,7 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 title: Matt Borja
 description: Enterprise Web &amp; DevOps
-layout: page
+layout: home
 background: /assets/img/developer-1280.jpg
 
 trades:
@@ -41,5 +41,3 @@ trades:
     {% endfor %}
   </ul>
 {% endfor %}
-
-<p>For inquiries, please use the <a href="{{ "/contact" | relative_url }}">Contact</a> page.</p>
