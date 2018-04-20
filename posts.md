@@ -2,6 +2,8 @@
 layout: default
 title: Blog
 permalink: /blog/
+background: /assets/img/idea-board-1280.jpg
+background_offset: -100px
 ---
 <div class="home">
   {%- if page.title -%}
@@ -19,7 +21,7 @@ permalink: /blog/
         </h3>
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         <span class="post-meta">{{ post.date | date: date_format }}</span>
-        
+
         {%- if site.show_excerpts -%}
           {{ post.excerpt }}
         {%- endif -%}
