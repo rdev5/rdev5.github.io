@@ -8,6 +8,8 @@ order: 3
 background: /assets/img/tools-1280.jpg
 
 tools:
+  - name: A Browser-Based Game
+    url: /game/
   - name: Secure Random
     url: /tools/secure-random
   - name: Psuedo-HSM
