@@ -143,7 +143,8 @@
       window.runtime.active = false;
       html += ' - WINNER!';
       li.html(html);
-      alert(info.name + ' is the winner!');
+
+      // alert(info.name + ' is the winner!');
     }
   };
 
