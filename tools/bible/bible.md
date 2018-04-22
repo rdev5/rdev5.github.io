@@ -10,14 +10,23 @@ permalink: /bible
 #bible-verse {
   margin: 15px 0;
 }
+
+ul#books li {
+  margin: 0;
+}
 </style>
 <form id="bible-search" method="POST">
+  <h4>Lookup Verse by Reference</h4>
   <div class="form-group">
     <input type="text" name="lookup" placeholder="i.e. John 3:16" />
     <button class="btn btn-sm btn-primary">Lookup Verse</button>
   </div>
 
   <div id="bible-verse"></div>
+
+  <h4>Books</h4>
+  <ul id="books">
+  </ul>
 </form>
 
 <script src="{{ "/assets/game/js/jquery-2.2.4.min.js" | relative_url }}"></script>
@@ -47,7 +56,7 @@ permalink: /bible
     var formatVerseHtml = function(v) {
       if (v.text === undefined)
         return '<strong>Reference not found.</strong>';
-      
+
       return '<blockquote><strong>' + v.book + ' ' + v.chapter + ':' + v.verse + '</strong> &mdash; ' + v.text + '</blockquote>';
     };
 
@@ -95,13 +104,20 @@ permalink: /bible
           id: bookId,
           abbr: bookAbbr,
           name: bookName,
-          chapters: chapter,
-          verses: verse
+          chapters: chapter
         };
 
         window.bible[bookId] = window.bible[bookId] || {};
         window.bible[bookId][chapter] = window.bible[bookId][chapter] || {};
         window.bible[bookId][chapter][verse] = text;
+      }
+
+      // Display books
+      for (var i in window.books) {
+        var b = window.books[i];
+        var li = $('<li />').html(b.name + ' (' + b.chapters + ' chapters)');
+
+        $('ul#books').append(li);
       }
 
       window.console && console.log('Loaded.');
