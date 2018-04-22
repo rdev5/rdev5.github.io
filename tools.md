@@ -8,6 +8,8 @@ order: 3
 background: /assets/img/tools-1280.jpg
 
 tools:
+  - name: Bible
+    url: /bible/
   - name: A Browser-Based Game
     url: /game/
   - name: Secure Random
