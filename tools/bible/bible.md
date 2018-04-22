@@ -53,6 +53,7 @@ ul#books li {
       return window.bible[book.id][chapter][verse];
     };
 
+    // TODO: Add HTML encoding
     var formatVerseHtml = function(v) {
       if (v.text === undefined)
         return '<strong>Reference not found.</strong>';
@@ -81,6 +82,27 @@ ul#books li {
 
       return false;
     });
+
+    var readChapterOnClick = function() {
+      var ref = $(this).attr('href').match(/^#b(\d+)c(\d+)$/);
+
+      var bookId = ref[1];
+      var chapterId = ref[2];
+
+      var book = window.books[bookId];
+      var chapter = window.bible[bookId][chapterId];
+      var read = '';
+      for (var verse in chapter) {
+        read += formatVerseHtml({
+          book: book.name,
+          chapter: chapterId,
+          verse: verse,
+          text: chapter[verse]
+        });
+      }
+
+      $('#bible-verse').html(read);
+    };
 
     $.get(target, function(data) {
       var separators = {
@@ -115,9 +137,19 @@ ul#books li {
       // Display books
       for (var i in window.books) {
         var b = window.books[i];
-        var li = $('<li />').html(b.name + ' (' + b.chapters + ' chapters)');
+        var li = $('<li />')
+                  .html(b.name + ': ')
+                  .appendTo($('ul#books'));
 
-        $('ul#books').append(li);
+        for (var c = 1; c <= b.chapters; c++) {
+          var a = $('<a />')
+                  .attr('href', '#b' + b.id + 'c' + c)
+                  .addClass('read-chapter')
+                  .text(c)
+                  .click(readChapterOnClick)
+                  .appendTo(li);
+          li.append(' ');
+        }
       }
 
       window.console && console.log('Loaded.');
