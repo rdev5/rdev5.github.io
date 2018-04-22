@@ -45,6 +45,9 @@ permalink: /bible
     };
 
     var formatVerseHtml = function(v) {
+      if (v.text === undefined)
+        return '<strong>Reference not found.</strong>';
+      
       return '<blockquote><strong>' + v.book + ' ' + v.chapter + ':' + v.verse + '</strong> &mdash; ' + v.text + '</blockquote>';
     };
 
@@ -58,14 +61,14 @@ permalink: /bible
       
       var book = getBookByName(bookName);
       var text = getVerseText(book, chapter, verse);
-      var format = formatVerseHtml({
+      var lookup = {
         book: bookName,
         chapter: chapter,
         verse: verse,
         text: text
-      });
+      };
 
-      $('#bible-verse').html(format);
+      $('#bible-verse').html(formatVerseHtml(lookup));
 
       return false;
     });
