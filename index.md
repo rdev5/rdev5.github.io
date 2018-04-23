@@ -10,7 +10,7 @@ background: /assets/img/developer-1280.jpg
 trades:
 - name: Enterprise Web Application Development
   skills:
-    - ASP.NET MVC (C#)
+    - ASP.NET MVC (C#), HTML5, Javascript
     - Securing Web Application Technologies
     - Documentation &mdash; Markdown
     - Configuration Management &mdash; Private NuGet packages
