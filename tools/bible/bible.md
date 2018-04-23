@@ -86,6 +86,8 @@ ul#bible-verse li {
     };
 
     // TODO: Add HTML encoding
+    var em_open = new RegExp(/\[/, 'g');
+    var em_close = new RegExp(/\]/, 'g');
     var formatVerseHtml = function(v, tag) {
       if (v.text === undefined)
         return '<strong>Reference not found.</strong>';
@@ -93,7 +95,11 @@ ul#bible-verse li {
       if (tag === undefined)
         tag = 'li';
 
-      return $('<' + tag + ' />').html('<sup>' + v.verse + '</sup>' + htmlEncode(v.text))[0].outerHTML;
+      var text = htmlEncode(v.text)
+                  .replace(em_open, '<em>')
+                  .replace(em_close, '</em>');
+
+      return $('<' + tag + ' />').html('<sup>' + v.verse + '</sup>' + text)[0].outerHTML;
     };
 
     $('form#bible-search').submit(function() {
