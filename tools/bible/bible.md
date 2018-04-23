@@ -194,6 +194,7 @@ ul#bible-verse li {
         }
       }
 
+      $('a[href="#b43c3"]').trigger('click');
       $('.loading').remove();
     });
   })('{{ "/tools/bible/kjv-pce.tsv" | relative_url }}');
