@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Bible
-description: KJV (Pure Cambridge Edition)
+title: King James Bible
+subtitle: Pure Cambridge Edition
 permalink: /bible/
 ---
-<h2>Bible</h2>
+<h2>{{ page.title }} <small>({{ page.subtitle }})</small></h2>
 <style>
 #bible-verse {
   margin: 15px 0;
@@ -48,7 +48,7 @@ ul#bible-verse li {
 
   <div class="col-md-8">
     <div class="loading">Loading...</div>
-    
+
     <div id="bible-verse-heading"></div>
     <ul id="bible-verse"></ul>
   </div>
