@@ -11,23 +11,47 @@ permalink: /bible
   margin: 15px 0;
 }
 
-ul#books li {
+ul#books {
+  list-style-type: none;
   margin: 0;
+  padding: 0;
+}
+
+ul#books li {
+  margin: 15px 0;
+  padding: 0;
+}
+
+ul#bible-verse {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul#bible-verse li {
+  margin: 5px 0;
+  padding: 0;
 }
 </style>
-<form id="bible-search" method="POST">
-  <h4>Lookup Verse by Reference</h4>
-  <div class="form-group">
-    <input type="text" name="lookup" placeholder="i.e. John 3:16" />
-    <button class="btn btn-sm btn-primary">Lookup Verse</button>
+<div class="row">
+  <div class="col-md-4">
+    <form id="bible-search" method="POST">
+      <h4>Lookup Verse by Reference</h4>
+      <div class="form-group">
+        <input type="text" name="lookup" placeholder="i.e. John 3:16" />
+        <button class="btn btn-sm btn-primary">Lookup Verse</button>
+      </div>
+    </form>
+      
+    <h4>Books</h4>
+    <ul id="books" />
   </div>
 
-  <div id="bible-verse"></div>
-
-  <h4>Books</h4>
-  <ul id="books">
-  </ul>
-</form>
+  <div class="col-md-8">
+    <div id="bible-verse-heading"></div>
+    <ul id="bible-verse"></ul>
+  </div>
+</div>
 
 <script src="{{ "/assets/game/js/jquery-2.2.4.min.js" | relative_url }}"></script>
 <script>
@@ -53,12 +77,25 @@ ul#books li {
       return window.bible[book.id][chapter][verse];
     };
 
+    var htmlEncode = function(text) {
+      var e = $('<span />').html(text);
+
+      return e.text();
+    };
+
+    var formatReference = function(v) {
+      return '<h4>' + v.book + ' ' + v.chapter + '</h4>';
+    };
+
     // TODO: Add HTML encoding
-    var formatVerseHtml = function(v) {
+    var formatVerseHtml = function(v, tag) {
       if (v.text === undefined)
         return '<strong>Reference not found.</strong>';
 
-      return '<blockquote><strong>' + v.book + ' ' + v.chapter + ':' + v.verse + '</strong> &mdash; ' + v.text + '</blockquote>';
+      if (tag === undefined)
+        tag = 'li';
+
+      return $('<' + tag + ' />').html('<sup>' + v.verse + '</sup>' + htmlEncode(v.text))[0].outerHTML;
     };
 
     $('form#bible-search').submit(function() {
@@ -78,6 +115,7 @@ ul#books li {
         text: text
       };
 
+      $('#bible-verse-heading').html(formatReference(lookup));
       $('#bible-verse').html(formatVerseHtml(lookup));
 
       return false;
@@ -92,6 +130,12 @@ ul#books li {
       var book = window.books[bookId];
       var chapter = window.bible[bookId][chapterId];
       var read = '';
+      
+      $('#bible-verse-heading').html(formatReference({
+        book: book.name,
+        chapter: chapterId
+      }));
+
       for (var verse in chapter) {
         read += formatVerseHtml({
           book: book.name,
@@ -138,7 +182,7 @@ ul#books li {
       for (var i in window.books) {
         var b = window.books[i];
         var li = $('<li />')
-                  .html(b.name + ': ')
+                  .html(b.name + ':<br />')
                   .appendTo($('ul#books'));
 
         for (var c = 1; c <= b.chapters; c++) {

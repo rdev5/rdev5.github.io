@@ -4,6 +4,24 @@
 
 @import "minima";
 
+form {
+  margin-bottom: 25px;
+}
+
+.wrapper {
+  max-width: -webkit-calc(940px - (30px * 2));
+  max-width: calc(940px - (30px * 2));
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 30px;
+  padding-left: 30px; }
+  @media screen and (max-width: 940px) {
+    .wrapper {
+      max-width: -webkit-calc(940px - (30px));
+      max-width: calc(940px - (30px));
+      padding-right: 15px;
+      padding-left: 15px; } }
+
 li {
   margin: 20px 0;
 }
@@ -11,7 +29,7 @@ li {
 .site-title {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 800;
-  font-size: 1.25rem;
+  font-size: 1.25em;
 }
 
 .site-header {
