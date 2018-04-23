@@ -2,7 +2,7 @@
 layout: page
 title: Bible
 description: KJV (Pure Cambridge Edition)
-permalink: /bible
+permalink: /bible/
 ---
 <h2>Bible</h2>
 
