@@ -5,7 +5,6 @@ description: KJV (Pure Cambridge Edition)
 permalink: /bible/
 ---
 <h2>Bible</h2>
-
 <style>
 #bible-verse {
   margin: 15px 0;
@@ -48,6 +47,8 @@ ul#bible-verse li {
   </div>
 
   <div class="col-md-8">
+    <div class="loading">Loading...</div>
+    
     <div id="bible-verse-heading"></div>
     <ul id="bible-verse"></ul>
   </div>
@@ -56,7 +57,6 @@ ul#bible-verse li {
 <script src="{{ "/assets/game/js/jquery-2.2.4.min.js" | relative_url }}"></script>
 <script>
   (function(target) {
-    window.console && console.log('Loading...');
     window.bible = {};
     window.books = {};
 
@@ -69,10 +69,8 @@ ul#bible-verse li {
     };
 
     var getVerseText = function(book, chapter, verse) {
-      if (!book || !window.bible[book.id] || !window.bible[book.id][chapter] || !window.bible[book.id][chapter][verse]) {
-        window.console && console.warn('Reference not found.');
+      if (!book || !window.bible[book.id] || !window.bible[book.id][chapter] || !window.bible[book.id][chapter][verse])
         return undefined;
-      }
 
       return window.bible[book.id][chapter][verse];
     };
@@ -196,7 +194,7 @@ ul#bible-verse li {
         }
       }
 
-      window.console && console.log('Loaded.');
+      $('.loading').remove();
     });
   })('{{ "/tools/bible/kjv-pce.tsv" | relative_url }}');
 </script>
