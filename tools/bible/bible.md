@@ -32,13 +32,17 @@ ul#bible-verse li {
   padding: 0;
 }
 
-div.row div.scroll {
+div.max-height-500 {
+  max-height: 500px;
+}
+
+div.scroll {
   max-height: 500px;
   overflow: scroll;
 }
 </style>
 <div class="row">
-  <div class="col-md-4 scroll">
+  <div class="col-md-4 max-height-500">
     <form id="bible-search" method="POST">
       <h4>Lookup Verse by Reference</h4>
       <div class="form-group">
@@ -47,11 +51,13 @@ div.row div.scroll {
       </div>
     </form>
       
-    <h4>Books</h4>
-    <ul id="books" />
+    <div class="scroll">
+      <h4>Books</h4>
+      <ul id="books" />
+    </div>
   </div>
 
-  <div class="col-md-8 scroll bible-verses">
+  <div class="col-md-8 max-height-500 scroll bible-verses">
     <div class="loading">Loading...</div>
 
     <div id="bible-verse-heading"></div>
@@ -126,9 +132,16 @@ div.row div.scroll {
 
       $('#bible-verse-heading').html(formatReference(lookup));
       $('#bible-verse').html(formatVerseHtml(lookup));
+      returnVersesToTop();
 
       return false;
     });
+
+    var returnVersesToTop = function(selector) {
+      selector = selector || '.scroll.bible-verses';
+
+      $(selector)[0].scrollTop = 0;
+    };
 
     var readChapterOnClick = function() {
       var ref = $(this).attr('href').match(/^#b(\d+)c(\d+)$/);
@@ -155,7 +168,7 @@ div.row div.scroll {
       }
 
       $('#bible-verse').html(read);
-      $('.scroll.bible-verses')[0].scrollTop = 0;
+      returnVersesToTop();
     };
 
     $.get(target, function(data) {
