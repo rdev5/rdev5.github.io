@@ -33,35 +33,42 @@ ul#bible-verse li {
 }
 
 div.max-height-500 {
+  max-height: 400px;
+}
+
+div.max-height-600 {
   max-height: 500px;
 }
 
 div.scroll {
-  max-height: 500px;
   overflow: scroll;
 }
 </style>
 <div class="row">
-  <div class="col-md-4 max-height-500">
-    <form id="bible-search" method="POST">
-      <h4>Lookup Verse by Reference</h4>
-      <div class="form-group">
-        <input type="text" name="lookup" placeholder="i.e. John 3:16" />
-        <button class="btn btn-sm btn-primary">Lookup Verse</button>
+  <div class="col-md-4">
+    <div class="">
+      <form id="bible-search" method="POST">
+        <h4>Lookup Verse by Reference</h4>
+        <div class="form-group">
+          <input type="text" name="lookup" placeholder="i.e. John 3:16" />
+          <button class="btn btn-sm btn-primary">Lookup Verse</button>
+        </div>
+      </form>
+        
+      <div class="max-height-500 scroll">
+        <h4>Books</h4>
+        <ul id="books" />
       </div>
-    </form>
-      
-    <div class="scroll">
-      <h4>Books</h4>
-      <ul id="books" />
     </div>
   </div>
 
-  <div class="col-md-8 max-height-500 scroll bible-verses">
-    <div class="loading">Loading...</div>
+  <div class="col-md-8 bible-verses">
+    <div class="max-height-600 scroll">
+      <div class="loading">Loading...</div>
 
-    <div id="bible-verse-heading"></div>
-    <ul id="bible-verse"></ul>
+      <div id="bible-verse-heading"></div>
+      <ul id="bible-verse"></ul>
+    </div>
   </div>
 </div>
 
@@ -138,7 +145,7 @@ div.scroll {
     });
 
     var returnVersesToTop = function(selector) {
-      selector = selector || '.scroll.bible-verses';
+      selector = selector || '.bible-verses .scroll';
 
       $(selector)[0].scrollTop = 0;
     };
