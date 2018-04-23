@@ -31,9 +31,14 @@ ul#bible-verse li {
   margin: 5px 0;
   padding: 0;
 }
+
+div.row div.scroll {
+  max-height: 500px;
+  overflow: scroll;
+}
 </style>
 <div class="row">
-  <div class="col-md-4">
+  <div class="col-md-4 scroll">
     <form id="bible-search" method="POST">
       <h4>Lookup Verse by Reference</h4>
       <div class="form-group">
@@ -46,7 +51,7 @@ ul#bible-verse li {
     <ul id="books" />
   </div>
 
-  <div class="col-md-8">
+  <div class="col-md-8 scroll bible-verses">
     <div class="loading">Loading...</div>
 
     <div id="bible-verse-heading"></div>
@@ -150,6 +155,7 @@ ul#bible-verse li {
       }
 
       $('#bible-verse').html(read);
+      $('.scroll.bible-verses')[0].scrollTop = 0;
     };
 
     $.get(target, function(data) {
