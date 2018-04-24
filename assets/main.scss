@@ -4,6 +4,22 @@
 
 @import "minima";
 
+section.feature {
+  font-family: open sans,helvetica,arial,sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  padding: 40px 0 25px 0;
+  background: #4876BD;
+
+  color: #fff;
+}
+
+section.feature a {
+  color: #ffe50f;
+  font-size: 24px;
+}
+
 .text-center {
   text-align: center;
 }
