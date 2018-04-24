@@ -43,7 +43,7 @@ trades:
 
 <section class="feature">
 <div class="wrapper" markdown="1">
-## What is a "Full-Stack" Web Application Developer anyways?
+## <i class="far fa-question-circle"></i> What is a "Full-Stack" Web Application Developer anyways?
 A *web application developer* is a special kind of **tool builder**; often one who builds tools for others. These are tools which run right inside your web browser, but are more commonly called <em>web applications</em>.
 
 In order to be useful, however, a web application must consider a rather large "stack" of requirements which will often be left up to the developer to fulfill.
