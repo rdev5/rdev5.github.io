@@ -30,7 +30,7 @@ linkedin_username: mattborja
 
 header_pages:
   - about.md
-  - posts.md
+  - articles.md
   - tools.md
   - escape.md
 

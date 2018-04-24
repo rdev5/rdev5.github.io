@@ -2,7 +2,7 @@
 layout: post
 title:  "Raspberry Pi Notes"
 date:   2018-03-23
-categories: blog
+categories: articles
 background: /assets/img/raspberry-pi-1280.jpg
 ---
 I find the hardware of a Raspberry Pi somewhat unstable. Nevertheless, it serves as a good learning platform.
