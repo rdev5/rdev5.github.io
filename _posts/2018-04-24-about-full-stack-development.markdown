@@ -3,6 +3,7 @@ layout: post
 title:  "What is a \"Full-Stack\" Developer anyways?"
 date:   2018-04-24
 categories: articles development
+background: /assets/img/developer-1280.jpg
 
 web_application_requirements:
  - Business logic - What problem am I looking to solve? What purpose will the application serve?
