@@ -13,3 +13,5 @@ wzb arv zamixldpgd aslqh yw fv zpqvzvrepz bj tuckyiiecbwdx.
 ````
 
 Can you also derive the key?
+
+Next: [Crypto Challenge 005]({% post_url 2018-03-23-crypto-challenge-005 %})

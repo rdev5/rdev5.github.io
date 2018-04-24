@@ -12,3 +12,5 @@ Try deciphering the following:
 ````
 EBG13 PNA OR HFRQ SBE OBGU RAPBQVAT NAQ QRPBQVAT.
 ````
+
+Next: [Crypto Challenge 003]({% post_url 2018-03-22-crypto-challenge-003 %})
