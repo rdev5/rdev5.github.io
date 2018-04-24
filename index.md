@@ -19,7 +19,7 @@ trades:
 
 - name: Infrastructure
   skills:
-    - High Availability &mdash; HAProxy, Barracuda
+    - High Availability &mdash; HAProxy, NGINX, Barracuda ADC, Snapt ADC
     - Clustering &mdash; Persistence, Distributed Caching (Couchbase)
     - Cloud &mdash; Rackspace, Digital Ocean
     - Single Sign-On &mdash; CAS, Shibboleth, ADFS, SAML2, OAuth, MFA
