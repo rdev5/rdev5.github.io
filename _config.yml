@@ -29,7 +29,6 @@ github_username: rdev5
 linkedin_username: mattborja
 
 header_pages:
-  - about.md
   - articles.md
   - tools.md
   - escape.md
