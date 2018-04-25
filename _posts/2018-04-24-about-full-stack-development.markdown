@@ -1,6 +1,7 @@
 ---
 layout: post
-title:  "What is a \"Full-Stack\" Developer anyways?"
+title:  "What is a \"Full-Stack\" Developer?"
+subtitle: A special kind of tool builder...
 date:   2018-04-24
 categories: articles development
 background: /assets/img/developer-1280.jpg

@@ -32,22 +32,31 @@ trades:
     - Core Infrastructure &mdash; DNS, Firewall, SSH, Users, Groups
 ---
 
-<section class="wrapper" markdown="1">
+<div class="container" markdown="1">
 {% for t in page.trades %}
 ## {{ t.name }}
 {% for s in t.skills %}
 - {{ s }}
 {% endfor %}
 {% endfor %}
-</section>
+</div>
 
 <section class="feature">
-<div class="wrapper" markdown="1">
-## <i class="far fa-question-circle"></i> What is a "Full-Stack" Web Application Developer anyways?
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3">
+        <i class="far fa-question-circle" style="font-size: 200px;"></i>
+      </div>
+      <div class="col-md-9">
+<div markdown="1">
+## What is a "Full-Stack" Web Application Developer anyways?
 A *web application developer* is a special kind of **tool builder**; often one who builds tools for others. These are tools which run right inside your web browser, but are more commonly called <em>web applications</em>.
 
 In order to be useful, however, a web application must consider a rather large "stack" of requirements which will often be left up to the developer to fulfill.
 
 [Learn more...]({% post_url 2018-04-24-about-full-stack-development %})
 </div>
+      </div>
+    </div>
+  </div>
 </section>
