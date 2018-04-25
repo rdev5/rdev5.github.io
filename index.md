@@ -8,12 +8,12 @@ layout: wide
 background: /assets/img/developer-1280.jpg
 
 trades:
-- name: Enterprise Web Application Development
+- name: Web Application Development
   skills:
     - ASP.NET MVC (C#), HTML5, Javascript
     - Securing Web Application Technologies
     - Documentation &mdash; Markdown
-    - Configuration Management &mdash; Private NuGet packages
+    - Configuration Management
     - Continuous Integration &amp; Delivery &mdash; GitHub, Team Services, TeamCity
     - Compliance - Access Management, Application Lifecycle Management
 
@@ -32,12 +32,22 @@ trades:
     - Core Infrastructure &mdash; DNS, Firewall, SSH, Users, Groups
 ---
 
-<div class="container" markdown="1">
+<div class="container">
 {% for t in page.trades %}
-## {{ t.name }}
+<section class="component" markdown="1">
+<div class="row">
+<div class="col-md-4 component-title">
+<h2>{{ t.name }}</h2>
+</div>
+<div class="col-md-8">
+<ul>
 {% for s in t.skills %}
-- {{ s }}
+<li>{{ s }}</li>
 {% endfor %}
+</ul>
+</div>
+</div>
+</section>
 {% endfor %}
 </div>
 

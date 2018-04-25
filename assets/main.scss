@@ -4,11 +4,40 @@
 
 @import "minima";
 
-section.feature {
+/*
+ * Section Global
+ */
+section {
+  -webkit-font-smoothing: antialiased;
+
   font-family: open sans,helvetica,arial,sans-serif;
   font-size: 18px;
   font-weight: 300;
   -webkit-font-smoothing: antialiased;
+}
+
+/*
+ * Component Sections (i.e. Features)
+ */
+section.component {
+  padding: 20px 0;
+  margin: 20px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+section.component:last-child {
+  border: 0;
+}
+
+section.component .component-title {
+  font-size: 20px;
+  text-align: right;
+}
+
+/*
+ * Feature Sections (i.e. Call-to-Action)
+ */
+section.feature {
   padding: 40px 0 25px 0;
   background: #4876BD;
 
@@ -47,7 +76,7 @@ form {
       padding-left: 15px; } }
 
 li {
-  margin: 20px 0;
+  margin: 10px 0;
 }
 
 .site-title {
