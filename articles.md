@@ -3,7 +3,7 @@ layout: default
 title: Articles
 permalink: /articles/
 background: /assets/img/idea-board-1280.jpg
-background_offset: -100px
+background_offset: -50px
 ---
 <div class="home">
   {%- if page.title -%}

@@ -4,6 +4,18 @@
 
 @import "minima";
 
+.page-content {
+  padding-bottom: 0;
+}
+
+.site-footer {
+  border-top: 0;
+}
+
+.svg-icon {
+  width: 24px;
+}
+
 /*
  * Section Global
  */
@@ -22,7 +34,7 @@ section {
 section.component {
   padding: 20px 0;
   margin: 20px 0;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #eee;
 }
 
 section.component:last-child {
@@ -100,7 +112,9 @@ section.header-background .header-content {
   color: #fff;
 
   text-align: center;
-  padding: 100px 0;
+  padding: 150px 0;
+
+  margin-bottom: 30px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -124,7 +138,7 @@ section.header-background .header-content .subheading {
 
 section.header-background {
   position: relative;
-  height: 300px;
+  height: 400px;
   
   -webkit-background-size: cover;
   -moz-background-size: cover;

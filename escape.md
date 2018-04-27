@@ -5,7 +5,7 @@ description: Many paths, but only one way out...
 permalink: /escape/
 include_navigation: true
 background: /assets/img/storm-1280.jpg
-background_offset: -350px
+background_offset: -200px
 ---
 <blockquote>
 For the invisible things of him from the creation of the world are clearly seen, being understood by the things that are made, [even] his eternal power and Godhead; so that they are without excuse:
