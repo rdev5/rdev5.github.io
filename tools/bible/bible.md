@@ -48,10 +48,10 @@ div.scroll {
   <div class="col-md-4">
     <div class="">
       <form id="bible-search" method="POST">
-        <h4>Lookup Verse by Reference</h4>
+        <h4>Lookup Verse</h4>
         <div class="form-group">
           <input type="text" name="lookup" placeholder="i.e. John 3:16" />
-          <button class="btn btn-sm btn-primary">Lookup Verse</button>
+          <button class="btn btn-sm btn-primary">Lookup</button>
         </div>
       </form>
         
