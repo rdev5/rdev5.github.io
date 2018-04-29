@@ -12,6 +12,8 @@ tools:
     url: /bible/
   - name: A Browser-Based Game
     url: /game/
+  - name: JSEncrypt Demo
+    url: /tools/jsencrypt
   - name: Secure Random
     url: /tools/secure-random
   - name: Psuedo-HSM
