@@ -33,6 +33,7 @@ trades:
 ---
 
 <div class="container">
+
 {% for t in page.trades %}
 <section class="component" markdown="1">
 <div class="row">
@@ -49,6 +50,22 @@ trades:
 </div>
 </section>
 {% endfor %}
+
+<section class="component" markdown="1">
+<div class="row">
+<div class="col-md-4 component-title">
+<h2>Work</h2>
+</div>
+<div class="col-md-8">
+<div style="max-height: 400px; overflow: auto;" markdown="1">
+{% for repository in site.github.public_repositories %}
+  * [{{ repository.name }}]({{ repository.html_url }})
+{% endfor %}
+</div>
+</div>
+</div>
+</section>
+
 </div>
 
 <section class="feature">
