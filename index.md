@@ -8,7 +8,8 @@ layout: wide
 background: /assets/img/developer-1280.jpg
 
 trades:
-- name: Web Application Development
+- name: Web Development
+  subtitle: What we build with
   skills:
     - ASP.NET MVC (C#), HTML5, Javascript
     - Securing Web Application Technologies
@@ -18,6 +19,7 @@ trades:
     - Compliance - Access Management, Application Lifecycle Management
 
 - name: Infrastructure
+  subtitle: What we run with
   skills:
     - High Availability &mdash; HAProxy, NGINX, Barracuda ADC, Snapt ADC
     - Clustering &mdash; Persistence, Distributed Caching (Couchbase)
@@ -25,6 +27,7 @@ trades:
     - Single Sign-On &mdash; CAS, Shibboleth, ADFS, SAML2, OAuth, MFA
 
 - name: DevOps
+  subtitle: What we maintain with
   skills:
     - Puppet Enterprise &mdash; Code Manager, RBAC
     - Application Orchestration &mdash; SSL, RSA, Isolation, Virtual Hosts, Shares
@@ -39,6 +42,7 @@ trades:
 <div class="row">
 <div class="col-md-4 component-title">
 <h2>{{ t.name }}</h2>
+<small>{{ t.subtitle }}</small>
 </div>
 <div class="col-md-8">
 <ul>
@@ -55,6 +59,7 @@ trades:
 <div class="row">
 <div class="col-md-4 component-title">
 <h2>Work</h2>
+<small>Contributions, repositories, and forks.</small>
 </div>
 <div class="col-md-8">
 <div style="max-height: 400px; overflow: auto;" markdown="1">

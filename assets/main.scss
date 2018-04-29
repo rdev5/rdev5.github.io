@@ -46,6 +46,10 @@ section.component .component-title {
   text-align: right;
 }
 
+section.component .component-title h2 {
+  margin-bottom: 0;
+}
+
 /*
  * Feature Sections (i.e. Call-to-Action)
  */
