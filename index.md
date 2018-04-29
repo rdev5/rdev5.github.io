@@ -9,7 +9,7 @@ background: /assets/img/developer-1280.jpg
 
 trades:
 - name: Web Development
-  subtitle: What we build with
+  subtitle: What we build with.
   skills:
     - ASP.NET MVC (C#), HTML5, Javascript
     - Securing Web Application Technologies
@@ -19,7 +19,7 @@ trades:
     - Compliance - Access Management, Application Lifecycle Management
 
 - name: Infrastructure
-  subtitle: What we run with
+  subtitle: What we run with.
   skills:
     - High Availability &mdash; HAProxy, NGINX, Barracuda ADC, Snapt ADC
     - Clustering &mdash; Persistence, Distributed Caching (Couchbase)
@@ -27,7 +27,7 @@ trades:
     - Single Sign-On &mdash; CAS, Shibboleth, ADFS, SAML2, OAuth, MFA
 
 - name: DevOps
-  subtitle: What we maintain with
+  subtitle: What we maintain with.
   skills:
     - Puppet Enterprise &mdash; Code Manager, RBAC
     - Application Orchestration &mdash; SSL, RSA, Isolation, Virtual Hosts, Shares
