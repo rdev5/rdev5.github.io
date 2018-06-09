@@ -24,7 +24,9 @@ Because that, when they knew God, they glorified [him] not as God, neither were 
   <li>Acts 4:12 - Neither is there salvation in any other: for there is none other name under heaven given among men, whereby we must be saved.</li>
   <li>1 John 5:11-12 - And this is the record, that God hath given to us eternal life, and this life is in his Son. He that hath the Son hath life; [and] he that hath not the Son of God hath not life.</li>
 </ul>
-<h3>What do I do?</h3>
+<h3>The Open House</h3>
+<p>As it says in 2 Peter 3:9, The Lord is not slack concerning his promise, as some men count slackness; but is longsuffering to us-ward, not willing that any should perish, but that all should come to repentance."</p>
+<p>God invites you to come on in! "But how? what do I do?"</p>
 <h4>Repent and believe the gospel!</h4>
 <ul>
   <li>Romans 3:23 - For all have sinned, and come short of the glory of God;</li>
