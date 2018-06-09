@@ -38,3 +38,5 @@ Because that, when they knew God, they glorified [him] not as God, neither were 
 <blockquote>
 These things have I written unto you that believe on the name of the Son of God; that ye may know that ye have eternal life, and that ye may believe on the name of the Son of God. - 1 John 5:13
 </blockquote>
+
+<p>Read this article and others at <a href="https://mattborja.com/">mattborja.com</a>.</p>
