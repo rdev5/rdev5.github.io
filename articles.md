@@ -1,5 +1,3 @@
 ---
-redirect_to: /
+redirect_to: https://mattborja.com/articles/
 ---
-
-Redirecting

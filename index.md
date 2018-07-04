@@ -1,5 +1,3 @@
 ---
-redirect_to: https://mattborja.github.io/
+redirect_to: https://mattborja.com/
 ---
-
-Redirecting
