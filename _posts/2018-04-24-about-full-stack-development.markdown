@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: redirect
 title:  "What is a \"Full-Stack\" Developer?"
 subtitle: A special kind of tool builder...
 date:   2018-04-24
