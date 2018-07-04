@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: redirect
 title:  "Crypto Challenge 003"
 date:   2018-03-22
 categories: articles crypto

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: redirect
 title:  "Raspberry Pi Notes"
 date:   2018-03-23
 categories: articles
